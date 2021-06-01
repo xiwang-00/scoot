@@ -1,0 +1,1251 @@
+@font-face {
+    font-family: 'Lexend Deca';
+    src: url('./fonts/LexendDeca/LexendDeca-Regular.eot');
+    src: url('./fonts/LexendDeca/LexendDeca-Regular.eot') format('embedded-opentype'),
+        url('./fonts/LexendDeca/LexendDeca-Regular.woff') format('woff'),
+        url('./fonts/LexendDeca/LexendDeca-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Space Mono';
+    src: url('./fonts/SpaceMono/SpaceMono-Regular.eot');
+    src: url('./fonts/SpaceMono/?#iefix') format('embedded-opentype'),
+        url('./fonts/SpaceMono/SpaceMono-Regular.woff') format('woff'),
+        url('./fonts/SpaceMono/SpaceMono-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Space Mono';
+    src: url('./fonts/SpaceMono/SpaceMono-Bold.eot');
+    src: url('./fonts/SpaceMono/SpaceMono-Bold.eot?#iefix') format('embedded-opentype'),
+        url('./fonts/SpaceMono/SpaceMono-Bold.woff') format('woff'),
+        url('./fonts/SpaceMono/SpaceMono-Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+body {
+    background-color: #fff;
+    padding: 0;
+    margin: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ul,
+li {
+    padding: 0;
+    margin: 0;
+}
+
+/* --------------------------------------------------------Header qismi boshlandi----------------------------------------------------*/
+
+.container {
+    width: 1106px;
+    margin: 0 auto;
+}
+
+.nav {
+    padding: 21px 0;
+    display: flex;
+    align-items: center;
+}
+
+.logo-link {
+    margin-right: 42px;
+}
+
+.nav-bar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.mobile-nav {
+    display: none;
+}
+
+.row {
+    display: flex;
+    align-items: center;
+}
+
+.nav-item {
+    list-style: none;
+}
+
+.nav-link {
+    margin: 0 16px;
+    text-decoration: none;
+    font-family: Space Mono;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 15px;
+    line-height: 25px;
+    color: #939CAA;
+    transition: all 0.2s ease-in-out;
+}
+
+.nav-link:hover {
+    color: #FCB72B;
+}
+
+.main-btn {
+    background: #FCB72B;
+    font-family: Space Mono;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 15px;
+    line-height: 25px;
+    text-align: center;
+    border: 3px solid transparent;
+    padding: 12px 36px;
+    color: #FFFFFF;
+    box-sizing: border-box;
+    transition: all 0.3s ease-in-out;
+}
+
+.main-btn:hover {
+    border: 3px solid #FCB72B;
+    box-sizing: border-box;
+    color: #FCB72B;
+    background-color: transparent;
+}
+
+/* -----------------------------------------------------------Header qismi tugadi----------------------------------------------------*/
+/* -----------------------------------------------------------Main qismi boshlandi---------------------------------------------------*/
+.main-inner{
+    position: relative;
+}
+
+.section-choose {
+    background-image: url('./images/Bitmap.svg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 153px 0;
+    position: relative;
+}
+
+.section-choose::after {
+    content: url('./images/Group\ 26.svg');
+    position: absolute;
+    right: 0;
+    top: 62%;
+}
+
+.section-choose-text {
+    font-family: Space Mono;
+    width: 45%;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 56px;
+    line-height: 56px;
+    letter-spacing: -2.5px;
+    color: #FFFFFF;
+}
+
+.section-choose-inner {
+    position: relative;
+    margin: 40px 90px;
+    width: 37%;
+}
+
+.section-choose-inner::before {
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 15px;
+    background-color: #FCB72B;
+    ;
+    top: 25%;
+    left: -115%;
+}
+
+.section-choose-inner::after {
+    content: url('./images/arrow2.svg');
+    position: absolute;
+    top: 24%;
+    right: -115%;
+}
+
+.section-choose-inner-info {
+    font-family: Lexend Deca;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 25px;
+    color: #FFFFFF;
+    margin-bottom: 40px;
+}
+
+.section-info {
+    padding: 150px 0;
+    position: relative;
+}
+
+.box-row {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.box-row::before {
+    content: '';
+    position: absolute;
+    top: 33%;
+    left: -37%;
+    width: 100%;
+    height: 15px;
+    z-index: -1;
+    background-color: #E5ECF4;
+
+}
+
+.box {
+    width: 33%;
+    padding: 12px;
+    box-sizing: border-box;
+}
+
+.box-text {
+    font-family: Space Mono;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 28px;
+    letter-spacing: -1.07143px;
+    color: #495567;
+    margin: 40px 0 27px;
+}
+
+.box-info {
+    font-family: Lexend Deca;
+    font-size: 15px;
+    line-height: 25px;
+    color: #939CAA;
+}
+
+.circle {
+    background: #FCB72B;
+    width: 96px;
+    height: 96px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    box-sizing: border-box;
+}
+
+.card {
+    margin-bottom: 100px;
+}
+
+.card-row {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.card-row-reverse {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: row-reverse;
+}
+
+.card-left {
+    width: 40%;
+}
+
+.card-right {
+    position: relative;
+}
+
+.card-right-one::after {
+    content: url('./images/arrow3.svg');
+    position: absolute;
+    right: -46.5%;
+    top: 60%;
+}
+
+.card-right-one::before {
+    content: url('./images/Mask.png');
+    position: absolute;
+    right: -46.5%;
+    top: 0;
+}
+
+.card-right-two::after {
+    content: url('./images/Group\ 13\ Copy.png');
+    position: absolute;
+    left: -46.5%;
+    top: 0;
+}
+
+.card-right-two::before {
+    content: url('./images/Mask.png');
+    transform: rotate(180deg);
+    position: absolute;
+    left: -46.5%;
+    top: 0;
+}
+
+.card-right-three::after {
+    content: url('./images/Group\ 17.png');
+    position: absolute;
+    right: -46.5%;
+    top: 15%;
+}
+
+.card-right-three::before {
+    content: url('./images/Mask.png');
+    position: absolute;
+    right: -46.5%;
+    top: 0;
+}
+
+.card-left-text {
+    font-family: Space Mono;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 48px;
+    line-height: 48px;
+    letter-spacing: -2.14286px;
+    color: #495567;
+}
+
+.card-left-info {
+    font-family: Lexend Deca;
+    font-size: 15px;
+    line-height: 25px;
+    color: #939CAA;
+    margin: 24px 0 40px;
+}
+
+.card-right-img {
+    border-radius: 50%;
+}
+
+/*------------------------------------------------------Main qismi tugadi----------------------------------------------------------*/
+/*------------------------------------------------------Footer qismi boshlanishi---------------------------------------------------*/
+
+.footer-top {
+    background: #495567;
+    padding: 102px 0;
+    position: relative;
+}
+
+.footer-top::before {
+    content: url('./images/Group\ 22.png');
+    position: absolute;
+    bottom: -5px;
+    right: 0;
+
+}
+
+.text-white {
+    color: #fff;
+}
+
+.footer-button {
+    background: #E5ECF4;
+    border-radius: 4px;
+    border: none;
+    margin: 0 0 0 18px;
+    cursor: pointer;
+}
+
+.footer-button-box {
+    display: flex;
+    align-items: center;
+    text-align: left;
+}
+
+.footer-button-img {
+    width: 24px;
+    height: 21px;
+    margin-right: 10px;
+}
+
+.footer-button-text {
+    font-family: Space Mono;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 10px;
+    line-height: 15px;
+    letter-spacing: -0.446429px;
+    color: #495567;
+}
+
+.footer-button-info {
+    font-family: Space Mono;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 24px;
+    letter-spacing: -0.892857px;
+    color: #495567;
+}
+
+.footer-bottom {
+    background: #333A44;
+}
+
+.fa {
+    color: #FCB72B;
+    font-size: 24px;
+    margin-left: 24px;
+    transition: all 0.3s ease-in-out;
+}
+
+.fa:hover {
+    color: #fff;
+}
+
+/*------------------------------------------------------Footer qismi tugadi--------------------------------------------------------*/
+/*------------------------------------------------------About Page boshlandi-------------------------------------------------------*/
+
+.section-about {
+    background: url('./images/Bitmap3.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 72px 0;
+    position: relative;
+    margin-bottom: 100px;
+}
+
+.section-about::after {
+    content: url('./images/Group\ 26.svg');
+    position: absolute;
+    right: 0;
+    top: 35%;
+}
+
+.card-right-four::before {
+    content: url('./images/Mask.png');
+    position: absolute;
+    right: -46.5%;
+    top: 0;
+}
+
+.card-right-four::after {
+    content: url('./images/Group\ 34.svg');
+    position: absolute;
+    right: -46.5%;
+    bottom: 5%;
+}
+
+.section-values-our {
+    font-family: Space Mono;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 48px;
+    line-height: 48px;
+    text-align: center;
+    letter-spacing: -2.14286px;
+    color: #495567;
+}
+
+.block {
+    text-align: center;
+    width: 33%;
+    padding: 10px;
+    box-sizing: border-box;
+    margin: 100px 0 120px;
+    position: relative;
+}
+
+.block-text {
+    font-family: Space Mono;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 28px;
+    text-align: center;
+    letter-spacing: -1.07143px;
+    color: #495567;
+    margin: 87px 0 27px;
+}
+
+.block-info {
+    font-family: Lexend Deca;
+    font-size: 15px;
+    line-height: 25px;
+    text-align: center;
+    color: #939CAA;
+}
+
+.block-one::before {
+    content: '01';
+    background: #FCB72B;
+    position: absolute;
+    top: 40%;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    width: 96px;
+    height: 96px;
+    border-radius: 50%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: Space Mono;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 28px;
+    text-align: center;
+    letter-spacing: -1.07143px;
+    color: #495567;
+}
+
+.block-two::before {
+    content: '02';
+    background: #FCB72B;
+    position: absolute;
+    top: 40%;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    width: 96px;
+    height: 96px;
+    border-radius: 50%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: Space Mono;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 28px;
+    text-align: center;
+    letter-spacing: -1.07143px;
+    color: #495567;
+}
+
+.block-three::before {
+    content: '03';
+    background: #FCB72B;
+    position: absolute;
+    top: 40%;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    width: 96px;
+    height: 96px;
+    border-radius: 50%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: Space Mono;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 28px;
+    text-align: center;
+    letter-spacing: -1.07143px;
+    color: #495567;
+}
+
+.section-faqs {
+    margin-bottom: 160px;
+}
+
+.section-faqs-text {
+    font-size: 40px;
+}
+
+.section-faqs-our {
+    margin-bottom: 64px;
+}
+
+.value-row {
+    display: flex;
+    justify-content: space-between;
+}
+
+.value-left {
+    width: 30%;
+}
+
+.value-right {
+    width: 70%;
+}
+
+.accordion {
+    background: #F2F5F9;
+    padding: 32px 40px;
+    box-sizing: border-box;
+    transition: all 0.2s ease-in-out;
+    margin: 16px 0;
+    height: auto;
+}
+
+.accordion:hover {
+    background: #FFF4DF;
+}
+
+.accordion.show {
+    height: 90px;
+    overflow: hidden;
+}
+
+.accordion-text {
+    font-family: Space Mono;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 28px;
+    letter-spacing: -1.07143px;
+    color: #495567;
+
+}
+
+.accordion-info {
+    font-family: Lexend Deca;
+    font-size: 15px;
+    line-height: 25px;
+    color: #495567;
+    margin-top: 24px;
+}
+
+.accordion-btn {
+    background-color: transparent;
+    border: none;
+    display: block;
+    position: relative;
+    cursor: pointer;
+}
+
+.first-span {
+    position: absolute;
+    background-color: transparent;
+    top: 0;
+    left: 21px;
+    width: 3px;
+    height: 10px;
+    display: block;
+    transform: rotate(45deg);
+    float: right;
+    border-radius: 2px;
+}
+
+.first-span:after {
+    content: "";
+    background-color: #FCB72B;
+    width: 3px;
+    height: 10px;
+    display: block;
+    float: right;
+    border-radius: 6px 10px 10px 6px;
+    transition: all 0.5s cubic-bezier(.25, 1.7, .35, .8);
+    z-index: -1;
+}
+
+.last-span {
+    position: absolute;
+    background-color: transparent;
+    top: 0px;
+    left: 26px;
+    width: 3px;
+    height: 10px;
+    display: block;
+    transform: rotate(-45deg);
+    float: right;
+    border-radius: 2px;
+}
+
+.last-span:after {
+    content: "";
+    background-color: #FCB72B;
+    width: 3px;
+    height: 10px;
+    display: block;
+    float: right;
+    border-radius: 10px 6px 6px 10px;
+    transition: all 0.5s cubic-bezier(.25, 1.7, .35, .8);
+    z-index: -1;
+}
+
+.accordion.show .first-span:after {
+    transform-origin: center center;
+    transform: rotate(-90deg);
+}
+
+.accordion.show .last-span:after {
+    transform-origin: center center;
+    transform: rotate(90deg);
+}
+
+/*------------------------------------------------------About Page tugadi-----------------------------------------------------------*/
+
+/*------------------------------------------------------Careers Page boshlandi------------------------------------------------------*/
+
+.section-careers {
+    background: url('./images/careers.png');
+}
+
+.apply-box {
+    width: 100%;
+    background: #F2F5F9;
+    box-sizing: border-box;
+    padding: 30px 40px;
+    margin: 24px 0;
+}
+
+.apply-box-location {
+    margin-top: 8px;
+}
+
+/*------------------------------------------------------Careers Page tugadi-----------------------------------------------------------*/
+
+
+/*------------------------------------------------------Location Page boshlandi-------------------------------------------------------*/
+
+.section-local {
+    background-image: url('./images/careers.png');
+}
+
+.section-location {
+    padding: 0 0 100px;
+    position: relative;
+}
+
+.section-location-row {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 120px;
+}
+
+.section-location-left {
+    width: 35%;
+    padding: 15px;
+    box-sizing: border-box;
+}
+
+.section-location-center {
+    width: 45%;
+    padding: 15px;
+    box-sizing: border-box;
+}
+
+.section-location-right {
+    text-align: right;
+    width: 20%;
+    padding: 15px;
+    box-sizing: border-box;
+}
+
+.section-location-info {
+    font-family: Lexend Deca;
+    font-size: 15px;
+    line-height: 25px;
+    color: #939CAA;
+}
+
+.section-location-text {
+    font-size: 48px;
+    line-height: 48px;
+}
+
+.menu{
+    display: none;
+}
+
+
+  .btn {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    display: flex;
+    padding: 0;
+  }
+  .line {
+    fill: none;
+    stroke: #FCB72B;
+    stroke-width: 6;
+    transition: stroke-dasharray 600ms cubic-bezier(0.4, 0, 0.2, 1),
+      stroke-dashoffset 600ms cubic-bezier(0.4, 0, 0.2, 1);
+  }
+  .line1 {
+    stroke-dasharray: 60 207;
+    stroke-width: 6;
+  }
+  .line2 {
+    stroke-dasharray: 60 60;
+    stroke-width: 6;
+  }
+  .line3 {
+    stroke-dasharray: 60 207;
+    stroke-width: 6;
+  }
+  .opened .line1 {
+    stroke-dasharray: 90 207;
+    stroke-dashoffset: -134;
+    stroke-width: 6;
+  }
+  .opened .line2 {
+    stroke-dasharray: 1 60;
+    stroke-dashoffset: -30;
+    stroke-width: 6;
+  }
+  .opened .line3 {
+    stroke-dasharray: 90 207;
+    stroke-dashoffset: -134;
+    stroke-width: 6;
+  }
+  
+
+
+/*------------------------------------------------------Location Page tugadi----------------------------------------------------------*/
+
+
+@media only screen and (max-width: 768px) {
+    .container {
+        width: 100%;
+        padding: 0 15px;
+        box-sizing: border-box;
+    }
+
+    .nav-link {
+        margin: 0 12px;
+        font-size: 13px;
+    }
+
+    
+
+    .section-choose {
+        padding: 137px 90px;
+        box-sizing: border-box;
+        position: relative;
+        width: 100%;
+        overflow: hidden;
+    }
+
+    .section-choose::after {
+        top: 85%;
+    }
+
+    .section-choose-text {
+        text-align: center;
+        width: 100%;
+
+    }
+
+    .section-choose-inner {
+        text-align: center;
+        margin: 40px 0;
+        width: 100%;
+    }
+
+    .section-choose-inner::before {
+        display: none;
+    }
+
+    .section-choose-inner::after {
+        top: 100%;
+        left: -214%;
+    }
+
+    .main-btn {
+        padding: 8px 20px;
+    }
+
+    .section-info {
+        padding: 150px 0;
+        position: relative;
+    }
+
+    .box-row::before {
+        top: 20%;
+        left: -40%;
+        transform: rotate(90deg);
+
+    }
+
+    .box {
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 0 15px;
+        box-sizing: border-box;
+    }
+
+    .box-div {
+        width: 70%;
+    }
+
+    .card {
+        margin-bottom: 100px;
+        text-align: center;
+    }
+
+    .card-row {
+        flex-direction: column-reverse;
+    }
+
+    .card-row-reverse {
+        flex-direction: column-reverse;
+    }
+
+    .card-left {
+        width: 80%;
+        margin: 50px auto 0;
+
+    }
+
+    .card-right {
+        width: 100%;
+        margin: 0 auto;
+        position: relative;
+    }
+
+    .card-right-one::after {
+        right: -15px;
+        top: 60%;
+        left: 0;
+    }
+
+    .card-right-one::before {
+        left: 55%;
+        top: 0;
+    }
+
+    .card-right-two::after {
+        left: -15px;
+        top: 5%;
+    }
+
+    .card-right-two::before {
+        right: 55%;
+        top: 0;
+    }
+
+    .card-right-three::after {
+        right: -15px;
+        top: 15%;
+    }
+
+    .card-right-three::before {
+        left: 55%;
+        top: 0;
+    }
+
+    .card-right-four::before {
+        left: 55%;
+        top: 0;
+    }
+
+    .card-right-four::after {
+        left: 15px;
+        right: 0;
+    }
+
+    .footer-top {
+        text-align: center;
+        padding: 0 0 60px 0;
+    }
+
+    .footer-row {
+        flex-direction: column;
+    }
+
+    .text-white {
+        margin-bottom: 40px;
+    }
+
+    .footer-right {
+        width: 80%;
+        margin: 0 auto;
+    }
+
+    .local-text {
+        text-align: left;
+    }
+
+    .section-location-row {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .section-location-text {
+        font-size: 48px !important;
+    }
+
+    .section-location-left {
+        width: 80%;
+        margin: 0 auto;
+    }
+
+    .section-location-center {
+        width: 80%;
+        margin: 0 auto;
+    }
+
+    .section-location-right {
+        width: 80%;
+        margin: 0 auto;
+        text-align: center;
+    }
+
+    .fa {
+        font-size: 20px;
+        margin-left: 20px;
+    }
+
+    .block {
+        width: 80%;
+        margin: 0 auto;
+        text-align: center;
+    }
+
+    .apply-box {
+        flex-direction: row;
+    }
+
+    .value-row {
+        flex-direction: column;
+    }
+
+    .value-right {
+        width: 100%;
+
+    }
+
+    .value-left {
+        width: 100%;
+        text-align: center;
+    }
+
+    .accordion-row {
+        flex-direction: row;
+    }
+
+    .section-faqs {
+        margin-bottom: 80px;
+    }
+
+    .value-row {
+        margin-bottom: 40px;
+    }
+
+    .accordion-text {
+        font-size: 22px;
+    }
+
+    .section-faqs-our {
+        margin-top: 100px;
+    }
+
+    .section-values-our {
+        margin-bottom: 65px;
+    }
+
+
+    .section-client {
+        overflow: hidden;
+    }
+}
+
+@media only screen and (max-width: 576px) {
+    .section-choose {
+        padding: 115px 0 150px;
+    }
+
+    .section-choose::after {
+        display: none;
+    }
+
+    .section-choose-inner::after {
+        top: 100%;
+        left: -245%;
+    }
+
+    .box {
+        flex-direction: column;
+        text-align: center;
+        margin-bottom: 40px;
+    }
+
+    .box-row::before {
+        display: none;
+    }
+
+    .box-div {
+        width: 100%;
+    }
+
+
+    .card-right-one::before {
+        display: none;
+    }
+
+
+    .card-right-two::before {
+        display: none;
+    }
+
+
+    .card-right-three::before {
+        display: none;
+    }
+
+    .card-right-four::before {
+        display: none;
+    }
+
+    .card-right-img {
+        width: 315px;
+        height: 315px;
+    }
+
+    .nav {
+        flex-direction: column;
+        text-align: center;
+        display: none;
+    }
+
+    .nav-bar {
+        flex-direction: column;
+    }
+
+    .row-link {
+        flex-direction: column;
+    }
+
+    .fa {
+        margin: 50px 12px;
+    }
+
+    .logo-link {
+        margin: 0;
+    }
+
+    .logo {
+        margin: 50px 0;
+    }
+
+    .nav-link {
+        margin-bottom: 16px;
+        display: inline-block;
+    }
+
+    .apply-box {
+        flex-direction: column;
+    }
+
+    .apply-box .main-btn {
+        width: 80%;
+        margin: 16px auto 0;
+    }
+
+    .local-text {
+        text-align: center;
+    }
+
+    .section-about::after {
+        display: none;
+    }
+
+    .block {
+        width: 100%;
+    }
+
+    .footer-right {
+        width: 100%;
+    }
+
+    .mobile-nav {
+        display: flex;
+        align-items: center;
+        padding: 21px 0;
+
+    }
+
+    .footer-nav {
+        display: block;
+    }
+
+    .burger-btn {
+        width: 20%;
+    }
+
+    .mobile-logo {
+        width: 60%;
+        text-align: center;
+    }
+
+    .overlay {
+        position: absolute;
+        top: 0;
+        left: -100%;
+        width: 100vw;
+        height: 100vh;
+        background: #000000;
+        mix-blend-mode: normal;
+        opacity: 0.75;
+        z-index: 1;
+        display: flex;
+        transition: all 0.5s ease-in-out;
+    }
+
+    .menu {
+        position: absolute;
+        top: 0;
+        left: -70%;
+        width: 70vw;
+        height: 100vh;
+        background: #333A44;
+        padding: 24px 32px;
+        box-sizing: border-box;
+        z-index: 2;
+        opacity: 1;
+        display: flex;
+        justify-content: space-between;
+        flex-direction: column;
+        transition: all 0.5s ease-in-out;
+    }
+
+    .menu-link {
+        font-family: Space Mono;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 18px;
+        line-height: 25px;
+        color: #E5ECF4;
+        text-decoration: none;
+        margin: 12px 0;
+        display: inline-block;
+    }
+
+    .menu.show {
+        left: 0;
+    }
+
+    .overlay.show{
+        left: 0;
+    }
+
+}
